@@ -6,6 +6,7 @@
   "homepage": "https://github.com/thefarce/repo-template",
   "author": "Sir Robert Burbridge",
   "scripts": {
+    "setup": "npm run --prefix pub install && npm run install",
     "build": "babel src -d dist",
     "clean": "rimraf ./reports",
     "docs:build": "npm run docs:build:jsdoc && npm run docs:build:site",
