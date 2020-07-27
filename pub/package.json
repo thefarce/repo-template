@@ -30,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@bit/thefarce.repo-docs.app": "^0.1.1",
+    "node-sass": "^4.14.1"
   }
 }

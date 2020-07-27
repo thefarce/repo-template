@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from '@bit/thefarce.repo-docs.app';
 import * as serviceWorker from './serviceWorker';
+import doclets from './jsdoc-data.json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App doclets={doclets}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
