@@ -1,4 +1,4 @@
-import suite        from './suite-generator.js';
+import suite from '@thefarce/jest-deep-suite';
 
 // This seed spec gets us started on specifying our project. 
 suite(['Version 0.1.0', 'Specs'], () => {

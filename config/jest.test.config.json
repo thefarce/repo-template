@@ -10,6 +10,13 @@
     "text",
     "clover"
   ],
+  "transform": {
+    "^.+\\.[jt]sx?$": [
+      "babel-jest", {
+        "configFile": "./config/babel.config.cjs"
+      }
+    ]
+  },
   "coverageThreshold": {
     "global": {
       "branches": 100,

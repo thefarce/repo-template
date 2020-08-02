@@ -2,10 +2,10 @@
  * A seed function for the repo template.
  *
  * @name helloWorld
- * @returns {undefined} 
+ * @returns {String} "Hello, World!"
  */
 function helloWorld () {
-  console.log("Hello, World!");
+  return 'Hello, World!';
 }
 
 export default helloWorld;
